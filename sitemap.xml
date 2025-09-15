@@ -3,7 +3,5 @@
   <url><loc>https://example.com/index.html</loc></url>
   <url><loc>https://example.com/about.html</loc></url>
   <url><loc>https://example.com/performances.html</loc></url>
-  <url><loc>https://example.com/classes.html</loc></url>
-  <url><loc>https://example.com/bookings.html</loc></url>
   <url><loc>https://example.com/contact.html</loc></url>
 </urlset>
