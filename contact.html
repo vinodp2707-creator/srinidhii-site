@@ -27,9 +27,10 @@
   </div>
 </header>
 
-<section class="min-h-[90vh] grid md:grid-cols-2">
-  <div class="relative md:min-h-[90vh]">
-    <img src="contact-image.png" alt="Srinidhii performing" class="absolute inset-0 w-full h-full object-cover" />
+
+<section class="min-h-[80vh] grid md:grid-cols-2">
+  <div class="flex items-center justify-center p-6 md:p-10">
+    <img src="contact-image.png" alt="Srinidhii performing" class="max-h-[70vh] w-auto object-contain rounded-xl shadow-md" />
   </div>
   <div class="flex items-center justify-center p-6 md:p-10 bg-[var(--bg)]">
     <div class="card w-full max-w-xl p-8">
@@ -50,6 +51,7 @@
     </div>
   </div>
 </section>
+
 
 <script>
   const ENDPOINT = ''; // e.g. 'https://formspree.io/f/xxxxxxx'
@@ -72,22 +74,15 @@
 </script>
 
 
+
 <footer class="mt-16 bg-[#111] text-[#ddd]">
-  <div class="max-w-6xl mx-auto px-6 py-12 grid gap-10 md:grid-cols-3">
+  <div class="max-w-6xl mx-auto px-6 py-12 grid gap-10 md:grid-cols-2">
     <div>
       <h3 class="text-white font-semibold mb-4">Explore</h3>
       <ul class="space-y-2 text-sm">
         <li><a class="hover:underline" href="/about.html">About</a></li>
         <li><a class="hover:underline" href="/gallery.html">Gallery</a></li>
         <li><a class="hover:underline" href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3 class="text-white font-semibold mb-4">Quick Links</h3>
-      <ul class="space-y-2 text-sm">
-        <li><a class="hover:underline" href="/sitemap.xml">Sitemap</a></li>
-        <li><a class="hover:underline" href="/robots.txt">Robots</a></li>
-        <li><a class="hover:underline" href="mailto:srinidhiisreeram@gmail.com">Email</a></li>
       </ul>
     </div>
     <div>
@@ -109,6 +104,7 @@
     </div>
   </div>
 </footer>
+
 
 </body>
 </html>
